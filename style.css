@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+
+.main-container{
+    background-color: white;
+    font-family: sans-serif;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-gambar{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-gambar img{
+    width: 20%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, orange, #f9633e);
+}
+  
+.menu-header a {
+    flex: auto;
+    text-decoration: none;
+    background-color: rgb(255, 72, 0);
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.menu-header a:hover {
+    background-color: #f78c71;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paket-container {
+    width: 300px;
+    margin: 10px;
+}
+
+.paket-container h4 {
+    color: rgb(150, 143, 143);
+}
+
+.paket-container img {
+    width: 100%;
+    margin: 10px;
+}
+
+.video-container {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    width: 300px;
+    height: auto;
+}
+
+.search-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .search-container input[type="text"] {
+    width: 50%;
+    padding: 12px 50px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f1f3f4;
+    font-size: 16px;
+    color: #eceaea;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container input[type="text"]:focus {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  .search-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .search-container button i {
+    font-size: 20px;
+    color: #5f6368;
+    transition: color 0.3s ease;
+
+  }
+
+
+.brand-container {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.brand-container img {
+    width: 60%;
+}
+
+.brand-container h1 {
+    color: white;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: 'konit', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
